@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <style>
+          #outer-box{
+            background-color: blue;
+            border: 10px solid purple;
+         }
+         .box {
+            padding: 10px;
+            background-color: blue;
+         }
+         .inner-box {
+            background-color: red;
+            color: yellow;
+         }
+         p {
+            padding: 0;
+            margin: 0;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="outer-box" class="box">
+         <p>Outer text </p>
+         <div class="box inner-box">
+            First box 
+         </div>
+         <p>Outer text </p>
+         <div class="box inner-box">
+            Second box
+         </div>
+      </div>
+   </body>
+</html>
+
+<!-- type > specificity -->
+
+
+<!-- position =>  li{
+                color:red;
+                color:blue; <- last assigned is valued
+               } -->
+<!-- specificity =>
+       element < class < attribute < id  -->
+<!-- type => 
+         inline > internal > external  -->

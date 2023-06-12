@@ -1,0 +1,46 @@
+<!-- POSTIONING IN CSS - appbrewery.github.io/css-positioning  -->
+
+<!-- static - normal position 
+relative - relative to static position of that particular element 
+absolute - relative to the closest ansestor of the block if ancestor position : relative , descendant(main block) position : absolute
+                                                         else  top-left corner of webpage
+fixed - position relative to the top left corner of browser window -->
+
+<html>
+   <head>
+      <style>
+         .blue-b {
+            height: 300px; 
+            width: 500px; 
+            top: 200px;
+            left: 200px; 
+            background-color: blue;
+            position: relative;
+         }
+         .red-c {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: red;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="blue-b">
+         <div class="red-c"></div>
+      </div>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+

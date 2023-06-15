@@ -1,0 +1,44 @@
+<!-- @media(max-width : 600px) {
+   css for screens below or equal to 600px wide 
+}
+{
+   display : grid ;
+   grid-template-colomns : 1fr 1fr or 0.5fr 0.5fr  ->says there will be two columns divided  ||| 
+   grid-template-rows : 100px 200px 100px  -> says there will be three rows in the total div section 
+}
+ {
+   in the above div ,when we want to merge two columns :
+     use => grid-column : span 2 ;
+ } -->
+<html>
+   <head>
+      <style>
+         body {
+            background-color: aquamarine;
+         }
+         @media (max-width :1200px){
+            body {
+               background-color: lightsalmon;
+            }
+         }
+         @media (min-width :1200px) and (max-width :1400px){
+            body {
+               background-color: powderblue;
+            }
+         }
+         @media (min-width :1400px) and (max-width :1500px){
+            body {
+               background-color: limegreen;
+            }
+         }
+         @media (min-width :1501px){
+            body {
+               background-color: seagreen;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      
+   </body>
+</html>

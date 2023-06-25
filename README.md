@@ -8,3 +8,28 @@
 <P> Flex grow : makes the flex items to max possible width of the container by default</P> 
 <p> Flex shrink : makes the flex items to shrink to possible width limit given by parameters like flex-basis etc or width of longest word</p>
 <p> flex : 1 1 0 -means flex : (grow  shrink  basis)</p>
+<p> Flex box confines only to 1-D positioning where as grid system is to 2-D positioning of elements </p> 
+<h4> GRID SYSTEM is just like a table with number of rows and columns ,we can span the colummns and rows to merge the items if necessary</h4>
+<P style="background-color:aliceblue;height :400px;width : 500px"> .grid-container {
+    display : grid;
+    grid-template-rows : 1fr 1fr 2fr;
+    grid-template-columns :auto 400px minmax(200px,500px);
+    grid-auto-rows : 50px;
+}
+
+.grid-container > * {
+    background-color : #2e8b57;
+    color : white;
+} </P> 
+<p> is same as </p>
+<P>.grid-container {
+    display : grid;
+    grid-template-rows : 1fr 1fr 2fr 50px;
+    grid-template-columns :1fr 400px minmax(200px,500px);
+
+}
+
+.grid-container > * {
+    background-color : #2e8b57;
+    color : white;
+}</P>

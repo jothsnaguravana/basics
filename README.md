@@ -39,3 +39,5 @@
 <p> grid-column-start and grid-column-end together work just like grid-column : span x</p> 
 <p> If we use start it specifies how many cols we have to skip Eg : if it is grid-column-start:2 ,it starts from 2nd col </p>
 <p> grid-area : grid-row-start /  grid-column-start / grid-row-end / grid-column-end </p>
+<h2>BOOTSTRAP</h2> 
+<p> col-sm-12 col-md-8 col-lg-4   means that (check breakpoints in getbootstrap.com)  on large screen - lg it occupies 4 of 12 parts , on medium screens it occupies 8 parts , on small screen it occupies 100% i.e total 12 parts </p>

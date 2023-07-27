@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height:50%;
+            width: 50%; 
+            margin-top:10%;
+            margin-left: 25%;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            border: 3px solid yellow;
+        }
+        .images {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center;
+        }
+        #img1 {
+            height: 200px; 
+            width: 200px; 
+            margin-right: 2rem;
+        }
+        #img2 {
+            height: 200px; 
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Roll The Dice</h1> 
+        <button onclick="doFun()">Click </button>
+        <div class="images">
+            <img src="./dice1.png" alt="NO ROLL YET" id="img1">
+            <img src="./dice2.png" alt="NO ROLL YET" id="img2">
+        </div>
+    </div>
+    <script>
+        function doFun() {
+            var n = Math.floor(Math.random() *6) + 1;
+            if(n == 1) {
+                document.getElementById("img1").setAttribute("src","./dice1.png");
+            } 
+            else if(n == 2) {
+                document.getElementById("img1").setAttribute("src","./dice2.png");
+            }
+            else if(n == 3) {
+                document.getElementById("img1").setAttribute("src","./dice3.png");
+            }
+            else if(n == 4) {
+                document.getElementById("img1").setAttribute("src","./dice4.png");
+            }
+            else if(n == 5) {
+                document.getElementById("img1").setAttribute("src","./dice5.png");
+            }
+            else if(n == 6) {
+                document.getElementById("img1").setAttribute("src","./dice6.png");
+            }
+            n = Math.floor(Math.random() *6) + 1;
+            if(n == 1) {
+                document.getElementById("img2").setAttribute("src","./dice1.png");
+            } 
+            else if(n == 2) {
+                document.getElementById("img2").setAttribute("src","./dice2.png");
+            }
+            else if(n == 3) {
+                document.getElementById("img2").setAttribute("src","./dice3.png");
+            }
+            else if(n == 4) {
+                document.getElementById("img2").setAttribute("src","./dice4.png");
+            }
+            else if(n == 5) {
+                document.getElementById("img2").setAttribute("src","./dice5.png");
+            }
+            else if(n == 6) {
+                document.getElementById("img2").setAttribute("src","./dice6.png");
+            }
+        }
+    </script>
+</body>
+</html>

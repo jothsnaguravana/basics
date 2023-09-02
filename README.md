@@ -41,3 +41,8 @@
 <p> grid-area : grid-row-start /  grid-column-start / grid-row-end / grid-column-end </p>
 <h2>BOOTSTRAP</h2> 
 <p> col-sm-12 col-md-8 col-lg-4   means that (check breakpoints in getbootstrap.com)  on large screen - lg it occupies 4 of 12 parts , on medium screens it occupies 8 parts , on small screen it occupies 100% i.e total 12 parts </p>
+<br/> <br/> <br/> 
+<p>Middleware in nodejs are used for providing various functionalities like logging , bodyParsing , sending data etc</p> 
+<p> next is used along with other params to follow the succedding module middleware present in code</p>  
+<p> Templating languages - jinga (python ) , pug , handlebars , twig(php) , EJS (most used js templating language) </p> 
+

@@ -54,4 +54,4 @@
     <li> <%# Comment %> </li> 
     <li> <%- include("another_file_name.ejs") %> </li>
 </ul>
-
+<P> REfer about locals used in EJS </P>

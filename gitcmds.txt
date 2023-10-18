@@ -1,0 +1,44 @@
+COMMANDS IN GIT :
+
+1) git init : Initialise the git 
+
+STAGING AREA : The middle layer where all files can be chosen for commit or other activities 
+
+2) git status : check commit activities , view STAGING AREA 
+
+3) git add filename.type : to add foriengn file to staging area 
+
+4) git commit -m "msg"  : To save a file  
+
+5) git log : view all commit actions made in repository 
+
+6) git checkout : to revert back or roll back to a particular version of repository  
+
+7) git remote add origin <<url from github>>  : to link your local repository and internet remote repository 
+   git push -u origin main 
+ 
+8) GIT IGNORE FILES are usually meant for storing data which you dont want to expose just like api keys or pwds etc 
+   When you have already added all files to staging area with commit action and want to remove files and add to git ignore use cmd: 
+   " git rm --cached -r . "
+
+
+   It gitignore file , we can use '#' sign for comments , *.<file type>  for wild pattern 
+      Eg :  *.txt will add all txt files to gitignore 
+
+9) Branching is an important tool for developers who make different features and working on different sections of same project. 
+   to make a new branch we have a command called as : 
+    git branch <branch-name> 
+
+10) To go and make changes to a particular branch , we need to initially go that particular branch area 
+      To do this task , we need to type the command : 
+      git checkout <branch-name> 
+      Then we can go and modify what we need apart from the main branch commited files. Anything modified will be meant only 
+      for the branch it is lyong on and not on whole repository. 
+      after doing changes , we can normally follow commands of git add , git coomit ..  to save the changes to the branch.
+      Further, to view how many branches you have, we can use the command "git branch" .
+
+11) Merge : when you are with the new feature or work of a branch you can simply make it into main branch using merge command as :
+      git merge sunday  (caution : after going into main branch) 
+
+12) To push the local files into remote repository : 
+      git push origin main -u 

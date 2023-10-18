@@ -55,3 +55,9 @@
     <li> <%- include("another_file_name.ejs") %> </li>
 </ul>
 <P> REfer about locals used in EJS </P>
+
+<br/> <hr/> 
+<h2>APIs</h2> 
+<p> Using postman we can view how API help in making services and request & responses</p> 
+<p> the url going to be requested is tailed with endpoints like filters , attribute , conditional statemnts</p>
+<p> Visit bored-api.app-brewery.com</p>

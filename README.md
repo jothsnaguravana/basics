@@ -61,4 +61,5 @@
 <p> Using postman we can view how API help in making services and request & responses</p> 
 <p> the url going to be requested is tailed with endpoints like filters , attribute , conditional statemnts</p>
 <p> Visit bored-api.app-brewery.com</p> 
-<p> To convert the json data to flat value we use JSON.stringify(var_name) and to reveerse it we use JSON.parse(var_name) </p>
+<p> To convert the json data to flat value we use JSON.stringify(var_name) and to reveerse it we use JSON.parse(var_name) </p> 
+<p> To view the stacky layers of JSON file some web apps like jsonviewer.stack.hu  etc are used </p>
